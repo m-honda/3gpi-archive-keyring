@@ -3,10 +3,11 @@ Section: misc
 Priority: optional
 Maintainer: Masahiro Honda <honda@mechatrax.com>
 Build-Depends: debhelper (>= 9)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 
 Package: 3gpi-archive-keyring
 Architecture: all
 Depends: gnupg, ${misc:Depends}
 Description: GnuPG archive keys of the 3GPI archive
-
+ The 3GPI archive digitally signs its Release files.
+ This package contains the archive keys used for that.
